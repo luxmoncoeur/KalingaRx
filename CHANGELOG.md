@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0](https://github.com/luxmoncoeur/Pharmacy-Management-System/compare/v1.1.1...v1.2.0) (2026-11-16)
+
+### Features
+
+* **branding:** rename app to KalingaRx ([3ee2cc9](https://github.com/luxmoncoeur/Pharmacy-Management-System/commit/3ee2cc9a6beb303550b6108d36d6289f8b46c4b8))
+
 ## [1.1.1](https://github.com/luxmoncoeur/Pharmacy-Management-System/compare/v1.1.0...v1.1.1) (2026-11-16)
 
 ### Bug Fixes

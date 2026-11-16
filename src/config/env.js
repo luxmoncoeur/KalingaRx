@@ -11,6 +11,7 @@ export const env = {
     port: Number(process.env.DB_PORT) || 3306,
     user: process.env.DB_USER || 'root',
     password: process.env.DB_PASSWORD || '',
+    ...(process.env.DB_SSL === 'true' && { ssl: { rejectUnauthorized: false } }),
     database: isTest ? (process.env.DB_NAME_TEST || 'pharmacy_pms_test') : (process.env.DB_NAME || 'pharmacy_pms'),
   },
   sessionSecret: process.env.SESSION_SECRET,

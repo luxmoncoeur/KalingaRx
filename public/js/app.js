@@ -30,7 +30,7 @@ function renderSidebar(badges = {}) {
     <div class="brand">
       <span class="brand-mark">${icon('pill')}</span>
       <div class="truncate">
-        <div class="brand-name">Pharmacy</div>
+        <div class="brand-name">KalingaRx</div>
         <div class="brand-branch truncate">${u.branch_name ?? 'All branches'}</div>
       </div>
     </div>
@@ -150,7 +150,7 @@ async function start() {
 
   onRouteChange((name) => {
     $('#crumb').textContent = LABELS[name] ?? '';
-    document.title = `${LABELS[name] ?? 'Pharmacy'} · Pharmacy Management System`;
+    document.title = `${LABELS[name] ?? 'Home'} · KalingaRx`;
     render($('#topbar-actions'), '');
     markActive();
     setNavOpen(false);

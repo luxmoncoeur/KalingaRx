@@ -75,7 +75,7 @@ New staff can start with the [User guide](docs/USER_GUIDE.md).
 ## Project Structure
 
 ```
-Pharmacy-Management-System/
+KalingaRx/
 ├── .github/workflows/ci.yml    # CI: lint, API tests against MySQL, PR title check, automatic releases
 ├── database/
 │   ├── pharmacy_pms.sql        # Complete database in one file (import in phpMyAdmin)
@@ -144,8 +144,8 @@ Browser (fetch) → routes → middleware → controller → model / service →
 2. **Clone the repository and install packages**
 
    ```bash
-   git clone https://github.com/luxmoncoeur/Pharmacy-Management-System.git
-   cd Pharmacy-Management-System
+   git clone https://github.com/luxmoncoeur/KalingaRx.git
+   cd KalingaRx
    npm install
    ```
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1](https://github.com/luxmoncoeur/Pharmacy-Management-System/compare/v1.1.0...v1.1.1) (2026-11-16)
+
+### Bug Fixes
+
+* **deploy:** trust proxy and optional MySQL SSL for Render ([71e7cbc](https://github.com/luxmoncoeur/Pharmacy-Management-System/commit/71e7cbc7feeca5588c1dfbbb90cd7c8d775ff7c3))
+
 ## [1.1.0](https://github.com/luxmoncoeur/Pharmacy-Management-System/compare/v1.0.0...v1.1.0) (2026-11-12)
 
 ### Features

@@ -15,7 +15,8 @@ const MySQLStore = MySQLStoreFactory(session);
 export function createApp() {
   const app = express();
   app.disable('x-powered-by');
-  app.set('trust proxy', 'loopback');
+  // Hosts like Render sit behind one proxy: set TRUST_PROXY=1 there so secure cookies and rate limits work.
+  app.set('trust proxy', process.env.TRUST_PROXY ? Number(process.env.TRUST_PROXY) : 'loopback');
 
   // Interactive API docs (Swagger UI). Mounted before the app's strict CSP because Swagger UI
   // needs inline styles; its own scripts are still served from this origin only.
